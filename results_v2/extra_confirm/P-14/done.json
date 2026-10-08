@@ -1,0 +1,59 @@
+{
+  "metrics": [
+    {
+      "dataset": "MSL",
+      "channel": "P-14",
+      "split": "confirmation",
+      "method": "multi_target",
+      "threshold": 0.0002657063498190837,
+      "tp": 181,
+      "fp": 5855,
+      "fn": 0,
+      "tn": 0,
+      "events": 1,
+      "hits": 1,
+      "delay_sum": 0,
+      "alerts": 1,
+      "hit_alerts": 1,
+      "auroc": 0.7553830838259789,
+      "ap": 0.28723371892541577
+    },
+    {
+      "dataset": "MSL",
+      "channel": "P-14",
+      "split": "confirmation",
+      "method": "multi_context",
+      "threshold": 0.012283991165459151,
+      "tp": 151,
+      "fp": 1393,
+      "fn": 30,
+      "tn": 4462,
+      "events": 1,
+      "hits": 1,
+      "delay_sum": 16,
+      "alerts": 31,
+      "hit_alerts": 3,
+      "auroc": 0.8236281027218557,
+      "ap": 0.2752906232187346
+    },
+    {
+      "dataset": "MSL",
+      "channel": "P-14",
+      "split": "confirmation",
+      "method": "hankel_pca",
+      "threshold": 1e-06,
+      "tp": 139,
+      "fp": 1344,
+      "fn": 42,
+      "tn": 4511,
+      "events": 1,
+      "hits": 1,
+      "delay_sum": 42,
+      "alerts": 1,
+      "hit_alerts": 1,
+      "auroc": 0.8108874220928423,
+      "ap": 0.3829400898874718
+    }
+  ],
+  "seconds": 1.2472646236419678
+}

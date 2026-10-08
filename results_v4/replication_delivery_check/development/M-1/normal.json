@@ -1,0 +1,13 @@
+{
+  "channel": "M-1",
+  "dataset": "MSL",
+  "split": "development",
+  "calibration_n": 378,
+  "reference_threshold": 4.280671977642115,
+  "selection_threshold": 8.29575923360487,
+  "envelope_ratio": 1.937957235904432,
+  "selection_exceedance": 0.15343915343915343,
+  "calibration_exceedance": 0.005291005291005291,
+  "pca_rank": 16,
+  "reference_floor": 0.004157445511656836
+}

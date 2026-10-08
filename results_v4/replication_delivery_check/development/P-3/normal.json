@@ -1,0 +1,13 @@
+{
+  "channel": "P-3",
+  "dataset": "SMAP",
+  "split": "development",
+  "calibration_n": 507,
+  "reference_threshold": 1.26638920777133,
+  "selection_threshold": 1.16548291623913,
+  "envelope_ratio": 1.0,
+  "selection_exceedance": 0.0,
+  "calibration_exceedance": 0.005917159763313609,
+  "pca_rank": 18,
+  "reference_floor": 0.004121971198903188
+}

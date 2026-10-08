@@ -1,0 +1,59 @@
+{
+  "metrics": [
+    {
+      "dataset": "SMAP",
+      "channel": "D-13",
+      "split": "development",
+      "method": "multi_target",
+      "threshold": 0.00013234152819495654,
+      "tp": 139,
+      "fp": 2434,
+      "fn": 22,
+      "tn": 5004,
+      "events": 1,
+      "hits": 1,
+      "delay_sum": 22,
+      "alerts": 3,
+      "hit_alerts": 1,
+      "auroc": 0.7242855639748212,
+      "ap": 0.2940381572544135
+    },
+    {
+      "dataset": "SMAP",
+      "channel": "D-13",
+      "split": "development",
+      "method": "multi_context",
+      "threshold": 9.384116856381297e-05,
+      "tp": 139,
+      "fp": 3466,
+      "fn": 22,
+      "tn": 3972,
+      "events": 1,
+      "hits": 1,
+      "delay_sum": 22,
+      "alerts": 30,
+      "hit_alerts": 1,
+      "auroc": 0.6815496719047229,
+      "ap": 0.20027296294565522
+    },
+    {
+      "dataset": "SMAP",
+      "channel": "D-13",
+      "split": "development",
+      "method": "hankel_pca",
+      "threshold": 1e-06,
+      "tp": 139,
+      "fp": 2432,
+      "fn": 22,
+      "tn": 5006,
+      "events": 1,
+      "hits": 1,
+      "delay_sum": 22,
+      "alerts": 1,
+      "hit_alerts": 1,
+      "auroc": 0.6270469420918934,
+      "ap": 0.0273926058277063
+    }
+  ],
+  "seconds": 0.45326685905456543
+}

@@ -1,0 +1,13 @@
+{
+  "channel": "P-14",
+  "dataset": "MSL",
+  "split": "confirmation",
+  "calibration_n": 512,
+  "reference_threshold": 1.134691304889915,
+  "selection_threshold": 1.18832371433916,
+  "envelope_ratio": 1.047266079521468,
+  "selection_exceedance": 0.076171875,
+  "calibration_exceedance": 0.005859375,
+  "pca_rank": 59,
+  "reference_floor": 0.0007659179656333337
+}

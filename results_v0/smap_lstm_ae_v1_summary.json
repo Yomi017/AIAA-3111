@@ -1,0 +1,112 @@
+{
+  "dataset": "SMAP",
+  "method": "global LSTM autoencoder",
+  "device": "cuda",
+  "window_length": 64,
+  "stride": 4,
+  "train_windows": 27325,
+  "validation_windows": 6204,
+  "epochs": 20,
+  "threshold": 2.296670124530795,
+  "runtime_s": 69.79708981513977,
+  "pointwise": {
+    "precision": 0.3863778640290472,
+    "recall": 0.054000139987401136,
+    "f1": 0.09475704306440472,
+    "fpr": 0.012667781548617555,
+    "tp": 3086,
+    "fp": 4901,
+    "fn": 54062,
+    "tn": 381986,
+    "roc_auc": 0.501050410487779,
+    "pr_auc": 0.14191279339987187
+  },
+  "event_level": {
+    "detected": 21,
+    "total": 69,
+    "recall": 0.30434782608695654,
+    "mean_delay_points": 88.0952380952381
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_mse": 0.6200739851482179
+    },
+    {
+      "epoch": 2,
+      "train_mse": 0.6090959900862998
+    },
+    {
+      "epoch": 3,
+      "train_mse": 0.6071359755528267
+    },
+    {
+      "epoch": 4,
+      "train_mse": 0.6058074044330558
+    },
+    {
+      "epoch": 5,
+      "train_mse": 0.5954379779727549
+    },
+    {
+      "epoch": 6,
+      "train_mse": 0.5599457983106838
+    },
+    {
+      "epoch": 7,
+      "train_mse": 0.5355077705673417
+    },
+    {
+      "epoch": 8,
+      "train_mse": 0.5198126615260789
+    },
+    {
+      "epoch": 9,
+      "train_mse": 0.5114931744298908
+    },
+    {
+      "epoch": 10,
+      "train_mse": 0.4979575296137601
+    },
+    {
+      "epoch": 11,
+      "train_mse": 0.491913653717931
+    },
+    {
+      "epoch": 12,
+      "train_mse": 0.4848172721378539
+    },
+    {
+      "epoch": 13,
+      "train_mse": 0.4750992931636887
+    },
+    {
+      "epoch": 14,
+      "train_mse": 0.4704387240625802
+    },
+    {
+      "epoch": 15,
+      "train_mse": 0.46861718563889543
+    },
+    {
+      "epoch": 16,
+      "train_mse": 0.4617085071113932
+    },
+    {
+      "epoch": 17,
+      "train_mse": 0.45583914443536955
+    },
+    {
+      "epoch": 18,
+      "train_mse": 0.45106700595430793
+    },
+    {
+      "epoch": 19,
+      "train_mse": 0.4488164560378198
+    },
+    {
+      "epoch": 20,
+      "train_mse": 0.43878854289255553
+    }
+  ]
+}

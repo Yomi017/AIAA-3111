@@ -1,0 +1,13 @@
+{
+  "channel": "A-3",
+  "dataset": "SMAP",
+  "split": "confirmation",
+  "calibration_n": 484,
+  "reference_threshold": 1.4718275144013648,
+  "selection_threshold": 1.4689988381861492,
+  "envelope_ratio": 1.0,
+  "selection_exceedance": 0.006211180124223602,
+  "calibration_exceedance": 0.006198347107438017,
+  "pca_rank": 7,
+  "reference_floor": 0.0017875810984212528
+}

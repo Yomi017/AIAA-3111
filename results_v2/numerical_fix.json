@@ -1,0 +1,18 @@
+{
+  "created": "2026-10-06T07:40:22.439241+00:00",
+  "trigger": "D-16 prefix invariance check: same prefix in different batches changed 282 predictions with standard LOF",
+  "cause": "duplicate reference windows, Euclidean cancellation and near-zero reachability densities",
+  "repair": "direct Ball-tree distances; features rounded12 decimals; density distance floor max(1e-6,0.001*median positive training kth distances)",
+  "scope": "apply identically to all trajectory and subspace LOF candidates; no threshold or smoothing retuning",
+  "final_runs": [
+    "stable_dev",
+    "stable_confirm"
+  ],
+  "obsolete_runs": [
+    "density",
+    "density2",
+    "density_confirm"
+  ],
+  "verification": "80 model roundtrips and causal prefixes passed; eight protocol unit tests passed",
+  "evidence_limit": "bugfix after initial confirmation metrics were visible; results remain exploratory"
+}

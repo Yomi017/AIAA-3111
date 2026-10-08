@@ -1,0 +1,59 @@
+{
+  "metrics": [
+    {
+      "dataset": "SMAP",
+      "channel": "D-4",
+      "split": "confirmation",
+      "method": "dae",
+      "threshold": 0.0005664810305461287,
+      "tp": 3237,
+      "fp": 0,
+      "fn": 11,
+      "tn": 5161,
+      "events": 1,
+      "hits": 1,
+      "delay_sum": 11,
+      "alerts": 1,
+      "hit_alerts": 1,
+      "auroc": 1.0,
+      "ap": 1.0
+    },
+    {
+      "dataset": "SMAP",
+      "channel": "D-4",
+      "split": "confirmation",
+      "method": "usad",
+      "threshold": 0.027194621786475182,
+      "tp": 3238,
+      "fp": 4140,
+      "fn": 10,
+      "tn": 1021,
+      "events": 1,
+      "hits": 1,
+      "delay_sum": 9,
+      "alerts": 8,
+      "hit_alerts": 2,
+      "auroc": 0.993484909080323,
+      "ap": 0.9950238903594788
+    },
+    {
+      "dataset": "SMAP",
+      "channel": "D-4",
+      "split": "confirmation",
+      "method": "trajectory_gaussian",
+      "threshold": 83.5100390625,
+      "tp": 3248,
+      "fp": 6,
+      "fn": 0,
+      "tn": 5155,
+      "events": 1,
+      "hits": 1,
+      "delay_sum": 0,
+      "alerts": 1,
+      "hit_alerts": 1,
+      "auroc": 1.0,
+      "ap": 1.0
+    }
+  ],
+  "seconds": 2.4516196250915527
+}

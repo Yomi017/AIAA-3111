@@ -1,0 +1,73 @@
+{
+  "msl_top_fp_channels": [
+    {
+      "channel": "P-14",
+      "false_positives": 5855,
+      "fpr": 1.0,
+      "outside_fit_normal_fraction": 1.0
+    },
+    {
+      "channel": "M-7",
+      "false_positives": 1991,
+      "fpr": 1.0,
+      "outside_fit_normal_fraction": 0.0015067805123053742
+    },
+    {
+      "channel": "C-2",
+      "false_positives": 1650,
+      "fpr": 0.8918918918918919,
+      "outside_fit_normal_fraction": 0.787027027027027
+    },
+    {
+      "channel": "P-10",
+      "false_positives": 1379,
+      "fpr": 0.23353090601185436,
+      "outside_fit_normal_fraction": 0.23420829805249788
+    },
+    {
+      "channel": "D-16",
+      "false_positives": 940,
+      "fpr": 0.6368563685636857,
+      "outside_fit_normal_fraction": 0.0
+    }
+  ],
+  "msl_top3_fp_share": 0.6230562299061742,
+  "score_shift_case": "P-14",
+  "selected": "level_conditional",
+  "cases": [
+    {
+      "dataset": "SMAP",
+      "channel": "F-2",
+      "selection": "largest_gain",
+      "delta_f1": 0.6213673856290585,
+      "reference_f1": 0.05971128608923885,
+      "selected_f1": 0.6810786717182973
+    },
+    {
+      "dataset": "SMAP",
+      "channel": "A-2",
+      "selection": "largest_loss",
+      "delta_f1": -0.2230576441102757,
+      "reference_f1": 0.46710526315789475,
+      "selected_f1": 0.24404761904761904
+    },
+    {
+      "dataset": "MSL",
+      "channel": "M-5",
+      "selection": "largest_gain",
+      "delta_f1": 0.04377429186589492,
+      "reference_f1": 0.027472527472527472,
+      "selected_f1": 0.07124681933842239
+    },
+    {
+      "dataset": "MSL",
+      "channel": "C-1",
+      "selection": "largest_loss",
+      "delta_f1": -0.004803513084140176,
+      "reference_f1": 0.49452954048140046,
+      "selected_f1": 0.4897260273972603
+    }
+  ],
+  "uncertainty": "Stratified paired channel percentile bootstrap; temporal dependence kept within channel; no correction for model/history selection; channels may not be independent spacecraft replicates",
+  "warmup_dropped": 0
+}

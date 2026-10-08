@@ -1,0 +1,13 @@
+# Data, fitted models, results and research snapshots are intentionally tracked.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.part
+
+# Duplicated extraction workspace; the original complete files are tracked.
+validation_workspaces/
+
+# GitHub rejects files over100MB. All ZIP archives are uploaded as Release assets.
+*.zip

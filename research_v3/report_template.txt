@@ -1,0 +1,38 @@
+[Project Title]
+Group [XX]
+[Member 1 full name]
+[Student ID]
+[Member 2 full name]
+[Student ID]
+[Member 3 full name]
+[Student ID]
+[Member 4 full name]
+[Student ID]
+Main text: 6–10 pages, including figures and tables; references, Disclosures, and Appendix excluded.
+1. Introduction
+[Introduce the problem, motivation, and project objectives.]
+[Summarize your approach and main contributions.]
+2. Problem Formulation
+[Define the task, its objective, inputs, outputs, and key terms.]
+3. Methodology
+[Describe your approach, including data preprocessing, the main methods, and key design choices.]
+[Workflow diagram or figure]
+Figure 1. [Figure caption]
+4. Experiments
+4.1 Dataset
+[Describe the dataset, its source, size, and relevant fields.]
+4.2 Experimental Setup
+[Describe the evaluation protocol, baseline methods, evaluation metrics, and parameter settings. Include data splits where applicable.]
+4.3 Results and Analysis
+[Present and compare the results, explain the differences, and discuss what the findings show.]
+5. Conclusion and Limitations
+[Summarize the findings, implications, limitations, and possible improvements.]
+6. Disclosures
+External Collaborators
+[Identify external collaborators and their contributions.]
+AIGC Use
+[Identify the AIGC tools used and explain how their outputs were used in the project.]
+References
+[List the references cited in the report.]
+Appendix
+[Supplementary results or technical details, if applicable.]

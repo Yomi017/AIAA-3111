@@ -1,0 +1,59 @@
+{
+  "metrics": [
+    {
+      "dataset": "MSL",
+      "channel": "M-4",
+      "split": "development",
+      "method": "dae",
+      "threshold": 1.3645992696285247,
+      "tp": 10,
+      "fp": 42,
+      "fn": 241,
+      "tn": 1681,
+      "events": 1,
+      "hits": 1,
+      "delay_sum": 177,
+      "alerts": 3,
+      "hit_alerts": 1,
+      "auroc": 0.5559630312181338,
+      "ap": 0.21666394186389404
+    },
+    {
+      "dataset": "MSL",
+      "channel": "M-4",
+      "split": "development",
+      "method": "usad",
+      "threshold": 1.9139847683906555,
+      "tp": 131,
+      "fp": 286,
+      "fn": 120,
+      "tn": 1437,
+      "events": 1,
+      "hits": 1,
+      "delay_sum": 120,
+      "alerts": 5,
+      "hit_alerts": 1,
+      "auroc": 0.7686260182716609,
+      "ap": 0.34830187650830624
+    },
+    {
+      "dataset": "MSL",
+      "channel": "M-4",
+      "split": "development",
+      "method": "trajectory_gaussian",
+      "threshold": 175.7691987373496,
+      "tp": 0,
+      "fp": 249,
+      "fn": 251,
+      "tn": 1474,
+      "events": 1,
+      "hits": 0,
+      "delay_sum": 0,
+      "alerts": 18,
+      "hit_alerts": 0,
+      "auroc": 0.28383737250649177,
+      "ap": 0.08561990334881195
+    }
+  ],
+  "seconds": 1.7479095458984375
+}

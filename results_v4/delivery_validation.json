@@ -1,0 +1,73 @@
+{
+  "report": {
+    "total_pages": 11,
+    "main_pages": 8,
+    "excluded_pages": [
+      "Disclosures9",
+      "References10",
+      "Appendix11"
+    ],
+    "bounds": [
+      {
+        "page": 1,
+        "characters": 972,
+        "out_of_page_spans": 0
+      },
+      {
+        "page": 2,
+        "characters": 1339,
+        "out_of_page_spans": 0
+      },
+      {
+        "page": 3,
+        "characters": 1112,
+        "out_of_page_spans": 0
+      },
+      {
+        "page": 4,
+        "characters": 1123,
+        "out_of_page_spans": 0
+      },
+      {
+        "page": 5,
+        "characters": 841,
+        "out_of_page_spans": 0
+      },
+      {
+        "page": 6,
+        "characters": 647,
+        "out_of_page_spans": 0
+      },
+      {
+        "page": 7,
+        "characters": 479,
+        "out_of_page_spans": 0
+      },
+      {
+        "page": 8,
+        "characters": 800,
+        "out_of_page_spans": 0
+      },
+      {
+        "page": 9,
+        "characters": 860,
+        "out_of_page_spans": 0
+      },
+      {
+        "page": 10,
+        "characters": 1924,
+        "out_of_page_spans": 0
+      },
+      {
+        "page": 11,
+        "characters": 946,
+        "out_of_page_spans": 0
+      }
+    ]
+  },
+  "poster": {
+    "pages": 1,
+    "size": "A1 landscape draft",
+    "footer_clear": true
+  }
+}

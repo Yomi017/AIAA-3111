@@ -1,0 +1,11 @@
+{
+  "fresh_replication": "results_v4/replication_delivery_check",
+  "selected": "level_conditional",
+  "compared_score_outputs": 320,
+  "metric_csv": "byte identical",
+  "all_point_scores_thresholds_labels_predictions": "exactly identical under current environment",
+  "full_flow": "data verification, audit, development, freeze, confirmation, analysis, PDF/poster generation executed; added model checks and CSV export executed on fresh outputs",
+  "independent_evidence": false,
+  "boundary": "Replication checks computation; cannot undo historical test exposure",
+  "source_sha256": "6f5144b80e2243887a3ae6c559378b127361cb0122ffc3096dcb576f8773e1de"
+}

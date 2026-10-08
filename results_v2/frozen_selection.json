@@ -1,0 +1,121 @@
+{
+  "created_utc": "2026-10-06T07:19:52.671861+00:00",
+  "selection": "equal-weight mean of SMAP and MSL development micro pointwise F1",
+  "chosen": {
+    "method": "trajectory_lof50",
+    "span": 64,
+    "policy": "cal995",
+    "f1": 0.32972802301280074
+  },
+  "models": [
+    {
+      "method": "trajectory_lof50",
+      "span": 64,
+      "policy": "cal995",
+      "f1": 0.32972802301280074
+    },
+    {
+      "method": "gru_target",
+      "span": 64,
+      "policy": "cal995",
+      "f1": 0.31347916179039625
+    },
+    {
+      "method": "trajectory_lof20",
+      "span": 64,
+      "policy": "cal995",
+      "f1": 0.30062719913159486
+    },
+    {
+      "method": "usad",
+      "span": 1,
+      "policy": "cal995",
+      "f1": 0.29757227152179994
+    },
+    {
+      "method": "multi_context",
+      "span": 64,
+      "policy": "cal995",
+      "f1": 0.29331258837971663
+    },
+    {
+      "method": "ztarget",
+      "span": 64,
+      "policy": "cal995",
+      "f1": 0.2917563041900264
+    },
+    {
+      "method": "dae",
+      "span": 16,
+      "policy": "cal995",
+      "f1": 0.2895057621051185
+    },
+    {
+      "method": "trajectory_gaussian_fixed",
+      "span": 1,
+      "policy": "cal995",
+      "f1": 0.28846703224497233
+    },
+    {
+      "method": "gru_context",
+      "span": 64,
+      "policy": "cal995",
+      "f1": 0.2851473966044319
+    },
+    {
+      "method": "hankel_pca_fixed",
+      "span": 64,
+      "policy": "cal995",
+      "f1": 0.28382761415531815
+    },
+    {
+      "method": "multi_target",
+      "span": 64,
+      "policy": "cal995",
+      "f1": 0.2833370822199285
+    },
+    {
+      "method": "subsequence_knn",
+      "span": 64,
+      "policy": "cal995",
+      "f1": 0.2579913335655764
+    },
+    {
+      "method": "subspace_lof50",
+      "span": 1,
+      "policy": "cal995",
+      "f1": 0.2446434408110692
+    },
+    {
+      "method": "pca",
+      "span": 64,
+      "policy": "cal995",
+      "f1": 0.15384704550340456
+    },
+    {
+      "method": "iforest",
+      "span": 64,
+      "policy": "cal995",
+      "f1": 0.1412998379714844
+    },
+    {
+      "method": "zmax",
+      "span": 64,
+      "policy": "cal995",
+      "f1": 0.0998125161542486
+    }
+  ],
+  "confirmation_channels": 58,
+  "no_confirmation_tuning": true,
+  "obsolete": [
+    "hankel_pca constant-channel fallback replaced",
+    "trajectory_gaussian zero pseudoinverse replaced"
+  ],
+  "source_sha256": {
+    "density_v2.py": "a4e663e7de38288edb69c2690430cca095f762c500b5c5e619a28a49425b5461",
+    "experiment_v2.py": "70466befd12269c60d7dd592b1534b909d9d66e3edf5a7a27195b844be65b7de",
+    "iterate_v2.py": "b40fe21d70d789a66d88b60ea07146a44ab232b974524440535b1172bab00b00",
+    "reconstruction_v2.py": "34c8cb747a23a52c8e499c7d4669cd29cc0e5998da450681c8ca2fd8017009d8",
+    "test_protocol_v2.py": "6f0bf34686efacb788af1049a28be74db87c186658b00172cddcdd1178136683"
+  }
+}

@@ -1,0 +1,5 @@
+v0/v1 are historical exploratory outputs, not valid apples-to-apples comparisons.
+Audit found inconsistent train/calibration preprocessing, duplicated conflicting P-2 labels,
+and sparse LSTM test scoring with unscored points filled with zero.
+Use ../results_v2/deliverables/实验结果与方法说明.html and README_v2.md for the corrected experiment.
+Files are preserved for audit; do not cite old F1 as a fair baseline against v2.

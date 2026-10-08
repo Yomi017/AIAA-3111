@@ -1,0 +1,7 @@
+{
+  "created": "2026-10-06T07:21:55.116478+00:00",
+  "reason": "D-12 training length312 cannot provide64-point windows in20percent calibration",
+  "change": "reserve at least96 normal points in both selection and calibration; remaining fit; apply identically to every model",
+  "evidence": "training lengths only, no confirmation metrics inspected",
+  "lof_neighbors": "min(50,n_fit_windows-1), sklearn standard behavior"
+}

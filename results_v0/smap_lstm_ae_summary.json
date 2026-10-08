@@ -1,0 +1,52 @@
+{
+  "dataset": "SMAP",
+  "method": "global LSTM autoencoder",
+  "device": "cuda",
+  "window_length": 64,
+  "stride": 8,
+  "train_windows": 13682,
+  "validation_windows": 3120,
+  "epochs": 5,
+  "threshold": 3.245596170425415,
+  "runtime_s": 30.856992483139038,
+  "pointwise": {
+    "precision": 0.4234965034965035,
+    "recall": 0.026492615664590186,
+    "f1": 0.04986578396983021,
+    "fpr": 0.0053271368642523525,
+    "tp": 1514,
+    "fp": 2061,
+    "fn": 55634,
+    "tn": 384826,
+    "roc_auc": 0.5003889196144744,
+    "pr_auc": 0.1349625656886559
+  },
+  "event_level": {
+    "detected": 19,
+    "total": 69,
+    "recall": 0.2753623188405797,
+    "mean_delay_points": 160.6315789473684
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_mse": 0.6256497592156506
+    },
+    {
+      "epoch": 2,
+      "train_mse": 0.6141049329988129
+    },
+    {
+      "epoch": 3,
+      "train_mse": 0.609779199118364
+    },
+    {
+      "epoch": 4,
+      "train_mse": 0.6082352855508395
+    },
+    {
+      "epoch": 5,
+      "train_mse": 0.6073207219360411
+    }
+  ]
+}

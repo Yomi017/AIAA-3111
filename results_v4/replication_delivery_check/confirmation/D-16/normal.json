@@ -1,0 +1,13 @@
+{
+  "channel": "D-16",
+  "dataset": "MSL",
+  "split": "confirmation",
+  "calibration_n": 227,
+  "reference_threshold": 1.0,
+  "selection_threshold": 1.0,
+  "envelope_ratio": 1.0,
+  "selection_exceedance": 0.0,
+  "calibration_exceedance": 0.0,
+  "pca_rank": 47,
+  "reference_floor": 0.008435051748051847
+}

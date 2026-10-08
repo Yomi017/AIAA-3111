@@ -1,0 +1,13 @@
+{
+  "channel": "T-4",
+  "dataset": "MSL",
+  "split": "development",
+  "calibration_n": 391,
+  "reference_threshold": 1.3558161376772502,
+  "selection_threshold": 1.2065577701260501,
+  "envelope_ratio": 1.0,
+  "selection_exceedance": 0.0,
+  "calibration_exceedance": 0.005115089514066497,
+  "pca_rank": 29,
+  "reference_floor": 0.006230732938368064
+}

@@ -1,0 +1,112 @@
+PAGE 1
+Course Project Guide
+Work in teams to complete a data mining project, write a report, create a poster, and present your work 
+at the Poster Session. Regardless of the topic chosen, your project should follow a complete data mining 
+workflow, including data acquisition (collecting data or obtaining an existing dataset), data preprocessing, 
+task definition, experimental design and implementation, comparison of different methods, analysis of 
+results and conclusions, and visualization. The final poster should clearly communicate the problem, 
+approach, key findings, and limitations.
+1. Project Reference Examples
+The four projects below are illustrative examples, not prescribed assignments. Their application domains, 
+data sources, problem definitions, and suggested methods are provided for reference only. Your group 
+may adapt these examples or propose your own project in any domain, provided that it addresses at least 
+one of the four data mining task types: classification, clustering, anomaly detection, or pattern mining.
+1.1 Clustering: Social Media Community and Topic Evolution
+Select a public topic or event and obtain relevant data from a major social-media platform such as Weibo, 
+Xiaohongshu, Zhihu, Douyin, or Bilibili. You may use an existing public dataset or collect publicly 
+accessible data yourself using appropriate tools. Based on the posts, users, interactions, and other 
+available information, formulate a meaningful clustering problem. Possible problems include discovering 
+different discussion topics, user groups, or communities. Design suitable representations, build and 
+compare different clustering approaches, investigate how the discovered groups differ under different 
+representations or stages of the event, and derive meaningful conclusions about how the selected online 
+discussion is organized and evolves over time.
+1.2 Classification: Robust Human Mobility Classification
+Obtain a public human-mobility dataset, such as the Microsoft GeoLife GPS Trajectories dataset, and 
+formulate a meaningful classification problem based on the available trajectory or mobility information. 
+Possible problems include recognizing transportation modes such as walking, cycling, driving, or public 
+transportation. Process the raw data, design suitable features or learned representations, and build and 
+compare different classification models. Investigate the models under different realistic conditions, such 
+as unseen users, reduced sampling frequency, noisy or incomplete data, or different feature 
+representations, and derive conclusions about what factors affect classification accuracy, robustness, and 
+generalization.
+1.3 Anomaly Detection: Spatio-Temporal Urban Sensor Anomaly Detection
+Obtain a public multi-location sensor dataset, such as the UCI Beijing Multi-Site Air Quality dataset, and 
+formulate a meaningful anomaly-detection problem. Possible problems include detecting measurements 
+that deviate from their historical patterns, identifying readings inconsistent with nearby monitoring 
+stations, or discovering unusual environmental events. Define a reasonable evaluation setting, build and 
+compare different anomaly-detection approaches using temporal, spatial, or combined information, and 
+investigate their performance under different types of abnormal behavior or experimental conditions. 
+Analyze representative successes and failures and derive conclusions about when different sources of 
+contextual information are useful for reliable anomaly detection.
+
+
+PAGE 2
+1.4 Pattern Mining: Urban Mobility Pattern Discovery
+Obtain a public urban-mobility dataset, such as Citi Bike trip histories or NYC Taxi trip records, and 
+formulate a meaningful pattern-mining problem from the available spatial-temporal data. Possible 
+problems include discovering frequent origin-destination flows, recurring commuting behaviors, or 
+common mobility sequences. Transform the raw records into suitable transactions, sequences, regions, 
+or mobility events, apply and compare appropriate pattern-mining methods or settings, and examine how 
+the discovered patterns differ across contexts such as weekdays and weekends, rush and non-rush hours, 
+seasons, or urban regions. Analyze representative patterns and derive meaningful conclusions about 
+recurring human-mobility behavior and how it changes under different conditions.
+2. Project Report
+Report length: 6–10 pages of main text, including figures and tables; references, the disclosure section, 
+and appendices are excluded.
+Submit a detailed report (Report.pdf) introducing your implementation algorithms and summarizing the 
+experimental setup, observations, and analyses for each experiment. Please follow the structure below to 
+organize your project report:
+
+Title & Group Members: Project title, group number, and team member names/IDs.
+
+1. Introduction: Real-world context and motivation, analytical objectives, and main contributions.
+
+2. Problem Formulation: Formal task definition, objectives, inputs, outputs, and key terms.
+
+3. Methodology: Data preprocessing, the main methods, system architecture/pipeline, key design 
+choices, and implementation details.
+
+4. Experiments: Dataset source/schema and size, evaluation protocol, baseline methods, metrics, 
+parameter settings, and comparative result analysis; include data splits where applicable.
+
+5. Conclusion and Limitations: Key discoveries, practical implications, limitations, and future 
+improvements.
+6. Disclosures: Identify external collaborators and describe how AIGC was used in the project.
+References: List the sources cited in the report. Do not include fabricated references.
+
+Appendix: Supplementary results or technical details, if applicable.
+3. Project Poster
+Prepare Poster.pdf for the Poster Session, an interactive presentation session where students and 
+instructors walk around to view different posters, while team members introduce and pitch their project 
+to visiting audiences. Because visitors will browse through multiple projects, your poster must serve as a 
+clear, standalone visual story. It should concisely convey the entire project narrative from problem 
+motivation to methodology, results, and practical impact. It provides key visual evidence that audiences 
+can grasp quickly, while serving as a visual anchor during your team's live walkthrough and defense.
+Poster formatting requirements and sample posters will be released later.
+
+
+PAGE 3
+4. Data Sources
+The following five public sources provide starting points for finding data. These are references, not 
+prescribed datasets.
+Weibo-COV — Weibo text and timestamps for topic clustering. GitHub repository
+GeoLife GPS Trajectories — mobility data for the classification example. Microsoft dataset page
+Beijing Multi-Site Air Quality — sensor data for the anomaly-detection example. UCI dataset page
+NYC TLC Trip Record Data — taxi trips for the pattern-mining example. TLC data page
+Citi Bike System Data — bike trips for the pattern-mining example. Citi Bike data page
+5. Submission
+Once your team is confirmed, any one member should submit the proposal, including the project title, a 
+brief introduction, and all team members’ names, by Oct 15 (Thu 23:59), the same deadline as team 
+registration. The following week, through Oct 22, is reserved for proposal review.
+For the final submission, use Group_XX_Project.zip, replacing XX with your Canvas group identifier. 
+Include Report.pdf, the code, a README, and data or download instructions. Poster.pdf is submitted 
+separately before the session and is not required in the final ZIP.
+Provide the full dataset or download instructions. If special circumstances prevent you from providing the 
+full original data, include sample data and explain the reason in the README. The README should 
+document dependencies, data preparation, and commands to run the code. For a sample-data exception, 
+explain which results the sample run can demonstrate and which full-data results it cannot reproduce.
+Submissions up to one week late incur a deduction of 20% of the earned mark (final mark = earned mark 
+× 0.8).
+6. Academic Integrity
+Do not submit directly AI-generated work or fabricated references. In a separate Disclosures section of 
+Report.pdf, identify external collaborators and describe how AIGC was used.

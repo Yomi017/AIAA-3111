@@ -1,0 +1,97 @@
+Running experiment_v2.py --run dev42 --split development
+Running experiment_v2.py --run confirm42 --split confirmation
+Running iterate_v2.py --run extra42 --split development --models multi
+Running iterate_v2.py --run extra_confirm --split confirmation --models multi
+Running reconstruction_v2.py --run recon42 --split development
+Running reconstruction_v2.py --run recon_confirm --split confirmation
+Running density_v2.py --run stable_dev --split development
+Running density_v2.py --run stable_confirm --split confirmation
+Running experiment_v2.py --run confirm7 --split confirmation --mode neural --seed 7
+Running experiment_v2.py --run confirm2026 --split confirmation --mode neural --seed 2026
+Running evaluate_frozen_v2.py --split development --runs dev42 extra42 recon42 stable_dev
+dataset                       MSL    SMAP
+method                                   
+dae                        0.1623  0.4167
+gru_context                0.2628  0.3075
+gru_target                 0.1915  0.4355
+hankel_pca_fixed           0.1845  0.3832
+iforest                    0.1954  0.0872
+multi_context              0.2151  0.3715
+multi_target               0.1880  0.3787
+pca                        0.1329  0.1748
+subsequence_knn            0.1519  0.3641
+subspace_lof50             0.1029  0.3878
+trajectory_gaussian_fixed  0.1580  0.4189
+trajectory_lof20           0.3350  0.2894
+trajectory_lof50           0.3756  0.2872
+usad                       0.1425  0.4526
+zmax                       0.1121  0.0876
+ztarget                    0.2072  0.3763
+Running evaluate_frozen_v2.py
+dataset                       MSL    SMAP
+method                                   
+dae                        0.2196  0.4499
+gru_context                0.1971  0.3738
+gru_target                 0.2239  0.3622
+hankel_pca_fixed           0.3035  0.3274
+iforest                    0.1714  0.1532
+multi_context              0.2294  0.3742
+multi_target               0.2282  0.3661
+pca                        0.1682  0.2439
+subsequence_knn            0.2448  0.3782
+subspace_lof50             0.2659  0.4871
+trajectory_gaussian_fixed  0.2578  0.3879
+trajectory_lof20           0.2368  0.3704
+trajectory_lof50           0.2383  0.3629
+usad                       0.2200  0.4135
+zmax                       0.2304  0.2225
+ztarget                    0.1879  0.3922
+Running detector_v2.py fit --method subspace_lof50
+Exported 80 channel models to E:\Class\AIAA 3111\Project\results_v2\models\subspace_lof50
+Running verify_exports_v2.py
+Verified saved detector parity and causal prefix invariance: 80 channels
+Running test_protocol_v2.py
+test_constant_dynamic (__main__.ProtocolTests.test_constant_dynamic) ... ok
+test_density_duplicates_and_batches (__main__.ProtocolTests.test_density_duplicates_and_batches) ... ok
+test_forecast_aggregation (__main__.ProtocolTests.test_forecast_aggregation) ... ok
+test_inclusive_labels (__main__.ProtocolTests.test_inclusive_labels) ... ok
+test_no_point_adjustment (__main__.ProtocolTests.test_no_point_adjustment) ... ok
+test_saved_support (__main__.ProtocolTests.test_saved_support) ... ok
+test_short_channel_split (__main__.ProtocolTests.test_short_channel_split) ... ok
+test_window_alignment (__main__.ProtocolTests.test_window_alignment) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 1.037s
+
+OK
+Running analyze_results_v2.py
+Strongest reference baseline by confirmation equal-weight F1: subsequence_knn
+     candidate       comparator           dataset  delta_f1    ci_low  ci_high  bootstrap_n
+subspace_lof50  subsequence_knn              SMAP  0.108862  0.031373 0.179669         5000
+subspace_lof50  subsequence_knn               MSL  0.021042 -0.014644 0.095610         5000
+subspace_lof50  subsequence_knn equal_weight_mean  0.064952  0.021500 0.113419         5000
+subspace_lof50              dae              SMAP  0.037125 -0.060052 0.139454         5000
+subspace_lof50              dae               MSL  0.046218 -0.011239 0.139966         5000
+subspace_lof50              dae equal_weight_mean  0.041672 -0.015609 0.109659         5000
+subspace_lof50 hankel_pca_fixed              SMAP  0.159693  0.013089 0.289730         5000
+subspace_lof50 hankel_pca_fixed               MSL -0.037661 -0.115864 0.085775         5000
+subspace_lof50 hankel_pca_fixed equal_weight_mean  0.061016 -0.020954 0.151606         5000
+subspace_lof50 trajectory_lof50              SMAP  0.124125  0.050970 0.201316         5000
+subspace_lof50 trajectory_lof50               MSL  0.027527 -0.001149 0.094225         5000
+subspace_lof50 trajectory_lof50 equal_weight_mean  0.075826  0.035662 0.125888         5000
+dataset      method  seed  channels       f1
+    MSL gru_context     7        19 0.202829
+    MSL gru_context    42        19 0.197089
+    MSL gru_context  2026        19 0.203331
+    MSL  gru_target     7        19 0.222263
+    MSL  gru_target    42        19 0.223928
+    MSL  gru_target  2026        19 0.218990
+   SMAP gru_context     7        39 0.371594
+   SMAP gru_context    42        39 0.373816
+   SMAP gru_context  2026        39 0.354375
+   SMAP  gru_target     7        39 0.352265
+   SMAP  gru_target    42        39 0.362247
+   SMAP  gru_target  2026        39 0.405137
+Running make_report_v2.py
+E:\Class\AIAA 3111\Project\results_v2\deliverables\ʵ�����뷽��˵��.html
+Completed: E:\Class\AIAA 3111\Project

@@ -1,0 +1,12 @@
+# Research sources and implementation attribution
+
+The local research snapshots remain the work of their respective authors. They are included as source evidence, not represented as original project code. The project is a course experiment and does not claim a novel LOF/PCA algorithm or exact reproduction of published headline scores.
+
+- Kyle Hundman et al., **Detecting Spacecraft Anomalies Using LSTMs and Nonparametric Dynamic Thresholding**, KDD 2018. https://arxiv.org/abs/1802.04431 ; https://github.com/khundman/telemanom . The project implements a simplified inspired threshold, not the full buffering/pruning pipeline. See the repository license snapshot.
+- Julien Audibert et al., **USAD: UnSupervised Anomaly Detection on Multivariate Time Series**, KDD 2020. DOI: 10.1145/3394486.3403392 . https://github.com/manigalati/usad . The adapted experiment follows the published encoder/two-decoder training equations, changes the output activation for standardized inputs, and uses normal validation checkpoint selection. Original code BSD-3-Clause; license included in research snapshots.
+- Shreshth Tuli et al., **TranAD: Deep Transformer Networks for Anomaly Detection in Multivariate Time Series Data**, PVLDB 15(6), 2022. https://github.com/imperial-qore/TranAD . Read for research; not trained in this experiment. Repository source snapshot is subject to BSD-3-Clause.
+- Qinghua Liu and John Paparrizos, **The Elephant in the Room: Towards A Reliable Time-Series Anomaly Detection Benchmark**, NeurIPS 2024. https://github.com/TheDatumOrg/TSB-AD . Read for method coverage and evaluation context; no claim of reproducing the benchmark.
+- Markus M. Breunig et al., **LOF: Identifying Density-Based Local Outliers**, SIGMOD 2000. Novelty-mode implementation guidance: https://scikit-learn.org/1.5/modules/outlier_detection.html . The stable implementation follows local reachability density and adds a reference-only numerical floor.
+- Public dataset mirror: https://huggingface.co/datasets/appleparan/telemanom . Original dataset release is linked from the Telemanom repository. Distribution permissions remain those of the original dataset; no new license is asserted here. Actual file hashes and the mirror revision are recorded in results_v2/provenance.json.
+
+AIGC disclosure: AI assisted the investigation, implementation, verification, figures and report draft. Results were computed locally from the supplied public data. Course submissions should retain a separate AIGC disclosure section as required by AIAA 3111.

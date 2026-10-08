@@ -1,0 +1,29 @@
+{
+  "dataset": "SMAP",
+  "method": "per-channel max absolute z-score",
+  "channels_evaluated": 55,
+  "train_points": 140825,
+  "test_points": 444035,
+  "dimensions": 25,
+  "anomaly_points": 57043,
+  "threshold_rule": "99.5th percentile of final 20% training scores",
+  "pointwise": {
+    "precision": 0.44291879168301296,
+    "recall": 0.31667338674333395,
+    "f1": 0.3693049975978002,
+    "fpr": 0.05870922396328606,
+    "tp": 18064,
+    "fp": 22720,
+    "fn": 38979,
+    "tn": 364272,
+    "roc_auc_micro": null
+  },
+  "event_level": {
+    "detected": 35,
+    "total": 69,
+    "recall": 0.5072463768115942,
+    "mean_delay_points": 207.45714285714286
+  },
+  "macro_roc_auc": 0.6515774046216772,
+  "macro_pr_auc": 0.27859950581980253
+}

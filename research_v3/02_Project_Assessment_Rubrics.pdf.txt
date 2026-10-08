@@ -1,0 +1,166 @@
+PAGE 1
+Group Project Assessment Rubrics
+Total: 100 points | 5 components | 11 criteria
+Score each criterion with an integer in the matching band; add the scores within each component.
+Peer assessment: average the totals received from all other group members (no self-rating).
+Poster, presentation, report and code: the same scores for all group members.
+Peer Assessment (20 Points)
+Criteria
+Excellent (9–10)
+Good (7–8)
+Fair (4–6)
+Poor (0–3)
+Contribution (10)
+Completes agreed work 
+accurately and on time.
+Completes most work; 
+minor fixes or delays.
+Partial work; repeated fixes 
+or delays.
+Little or no usable work.
+Teamwork (10)
+Communicates reliably and 
+supports joint work.
+Usually responsive; 
+occasional coordination 
+problems.
+Often unresponsive or needs 
+repeated reminders.
+Rarely participates or 
+obstructs teamwork.
+Poster (20 Points)
+Criteria
+Excellent (9–10)
+Good (7–8)
+Fair (4–6)
+Poor (0–3)
+Content (10)
+Clearly presents problem, 
+methods, results and 
+conclusions.
+All key elements; one is 
+unclear.
+Several key elements 
+unclear or missing.
+Project purpose and findings 
+are unclear.
+Visual Communication 
+(10)
+Readable layout; figures 
+clearly show key findings.
+Mostly readable; minor 
+layout or figure issues.
+Crowded layout or unclear 
+figures hinder 
+understanding.
+Unreadable layout or 
+misleading figures.
+
+
+PAGE 2
+Presentation — Poster Q&A (30 Points)
+Criteria
+Excellent (9–10)
+Good (7–8)
+Fair (4–6)
+Poor (0–3)
+Project Understanding 
+(10)
+Accurately explains data, 
+workflow and method 
+choices.
+Mostly accurate; minor gaps 
+in explanations.
+Explains basics but misses 
+key choices.
+Cannot explain the core 
+workflow.
+Answers and Evidence 
+(10)
+Answers directly using 
+relevant project evidence.
+Mostly correct answers; 
+some evidence missing.
+Partly correct answers with 
+little evidence.
+Incorrect answers or cannot 
+address questions.
+Interpretation (10)
+Explains findings, 
+limitations and their 
+implications.
+Explains findings; 
+limitations lack detail.
+Repeats results with little 
+interpretation.
+Misinterprets results or 
+cannot discuss limitations.
+Assessment Notes
+Presentation is assessed holistically using the criteria above. Individual contributions are refle cted through peer assessment.
+Provide the full dataset or download instructions. If special circumstances prevent you from providing the full original data, include sample data and explain the reason in 
+the README. For a documented sample-data exception, assessment is based on the runnable sample workflo w.
+Submissions up to one week late incur a deduction of 20% of the earned mark (fin al mark = earned mark × 0.8).
+
+
+PAGE 3
+Report (20 Points)
+Criteria
+Excellent (9–10)
+Good (7–8)
+Fair (4–6)
+Poor (0–3)
+Problem and Methods 
+(10)
+Clearly documents task, 
+data, preprocessing and 
+methods.
+Mostly complete; minor 
+gaps in details.
+Key steps are unclear or 
+missing.
+Task or methods are largely 
+undocumented.
+Experiments and 
+Analysis (10)
+Clear setup, fair 
+comparisons and supported 
+conclusions.
+Adequate comparisons; 
+minor setup or analysis gaps.
+Weak comparisons or partly 
+unsupported conclusions.
+No meaningful evaluation or 
+unsupported conclusions.
+Code (10 Points)
+Criteria
+Excellent (5)
+Good (4)
+Fair (2–3)
+Poor (0–1)
+Functionality (5)
+Runs the complete 
+workflow; reproduces 
+reported results with full 
+data, or documented sample 
+results for an explained data 
+exception.
+Runs with minor fixes; 
+results mostly match the 
+documented full-data or 
+sample run.
+Only parts run, or results 
+differ substantially from the 
+documented run.
+Cannot run or no usable 
+implementation.
+Readability and Setup 
+(5)
+Organized code; clear 
+dependencies, data access 
+and commands.
+Understandable code; minor 
+setup details missing.
+Hard to follow; major setup 
+details missing.
+Disorganized code; no 
+usable setup instructions.

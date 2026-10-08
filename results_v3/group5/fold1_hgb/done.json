@@ -1,0 +1,602 @@
+{
+  "outer": 1,
+  "kind": "hgb",
+  "train_inner": [
+    "A-1",
+    "A-2",
+    "A-3",
+    "A-4",
+    "A-7",
+    "A-8",
+    "A-9",
+    "B-1",
+    "C-1",
+    "C-2",
+    "D-11",
+    "D-12",
+    "D-13",
+    "D-14",
+    "D-16",
+    "D-2",
+    "D-6",
+    "D-8",
+    "E-1",
+    "E-10",
+    "E-13",
+    "E-5",
+    "E-6",
+    "E-7",
+    "F-2",
+    "F-4",
+    "F-7",
+    "F-8",
+    "G-1",
+    "G-3",
+    "G-4",
+    "G-6",
+    "G-7",
+    "M-1",
+    "M-2",
+    "M-4",
+    "M-5",
+    "M-7",
+    "P-1",
+    "P-10",
+    "P-11",
+    "P-14",
+    "P-15",
+    "P-3",
+    "P-4",
+    "T-1",
+    "T-12",
+    "T-4",
+    "T-5",
+    "T-8"
+  ],
+  "validation_inner": [
+    "A-5",
+    "A-6",
+    "D-4",
+    "D-5",
+    "D-7",
+    "E-11",
+    "E-3",
+    "E-4",
+    "E-8",
+    "F-1",
+    "M-6",
+    "R-1",
+    "T-13",
+    "T-9"
+  ],
+  "source_final": [
+    "A-1",
+    "A-2",
+    "A-3",
+    "A-4",
+    "A-7",
+    "A-8",
+    "A-9",
+    "B-1",
+    "C-1",
+    "C-2",
+    "D-11",
+    "D-12",
+    "D-13",
+    "D-14",
+    "D-16",
+    "D-2",
+    "D-6",
+    "D-8",
+    "E-1",
+    "E-10",
+    "E-13",
+    "E-5",
+    "E-6",
+    "E-7",
+    "F-2",
+    "F-4",
+    "F-7",
+    "F-8",
+    "G-1",
+    "G-3",
+    "G-4",
+    "G-6",
+    "G-7",
+    "M-1",
+    "M-2",
+    "M-4",
+    "M-5",
+    "M-7",
+    "P-1",
+    "P-10",
+    "P-11",
+    "P-14",
+    "P-15",
+    "P-3",
+    "P-4",
+    "T-1",
+    "T-12",
+    "T-4",
+    "T-5",
+    "T-8",
+    "A-5",
+    "A-6",
+    "D-4",
+    "D-5",
+    "D-7",
+    "E-11",
+    "E-3",
+    "E-4",
+    "E-8",
+    "F-1",
+    "M-6",
+    "R-1",
+    "T-13",
+    "T-9"
+  ],
+  "target": [
+    "D-1",
+    "D-15",
+    "D-3",
+    "D-9",
+    "E-12",
+    "E-2",
+    "E-9",
+    "F-3",
+    "F-5",
+    "G-2",
+    "M-3",
+    "P-7",
+    "S-1",
+    "S-2",
+    "T-2",
+    "T-3"
+  ],
+  "selected": {
+    "depth": 5,
+    "threshold": 0.95,
+    "inner_mean_f1": 0.3366119643323625,
+    "grid": [
+      {
+        "threshold": 0.05,
+        "inner_mean_f1": 0.2403943492953139
+      },
+      {
+        "threshold": 0.1,
+        "inner_mean_f1": 0.3042093052976419
+      },
+      {
+        "threshold": 0.2,
+        "inner_mean_f1": 0.29221855124982166
+      },
+      {
+        "threshold": 0.3,
+        "inner_mean_f1": 0.28659694662202767
+      },
+      {
+        "threshold": 0.4,
+        "inner_mean_f1": 0.27765333261095737
+      },
+      {
+        "threshold": 0.5,
+        "inner_mean_f1": 0.2826466248664847
+      },
+      {
+        "threshold": 0.6,
+        "inner_mean_f1": 0.2886243651468422
+      },
+      {
+        "threshold": 0.7,
+        "inner_mean_f1": 0.29866846489070076
+      },
+      {
+        "threshold": 0.8,
+        "inner_mean_f1": 0.3052087766375518
+      },
+      {
+        "threshold": 0.9,
+        "inner_mean_f1": 0.28539298312316497
+      },
+      {
+        "threshold": 0.95,
+        "inner_mean_f1": 0.3366119643323625
+      }
+    ]
+  },
+  "choices": [
+    {
+      "depth": 3,
+      "threshold": 0.9,
+      "inner_mean_f1": 0.3124825497708456,
+      "grid": [
+        {
+          "threshold": 0.05,
+          "inner_mean_f1": 0.23316659185953006
+        },
+        {
+          "threshold": 0.1,
+          "inner_mean_f1": 0.27685471942662304
+        },
+        {
+          "threshold": 0.2,
+          "inner_mean_f1": 0.2854885414081244
+        },
+        {
+          "threshold": 0.3,
+          "inner_mean_f1": 0.29189218766777253
+        },
+        {
+          "threshold": 0.4,
+          "inner_mean_f1": 0.3066795886334437
+        },
+        {
+          "threshold": 0.5,
+          "inner_mean_f1": 0.29343882566907636
+        },
+        {
+          "threshold": 0.6,
+          "inner_mean_f1": 0.3014166450453022
+        },
+        {
+          "threshold": 0.7,
+          "inner_mean_f1": 0.3044275458914294
+        },
+        {
+          "threshold": 0.8,
+          "inner_mean_f1": 0.311939968176609
+        },
+        {
+          "threshold": 0.9,
+          "inner_mean_f1": 0.3124825497708456
+        },
+        {
+          "threshold": 0.95,
+          "inner_mean_f1": 0.08905896963279605
+        }
+      ]
+    },
+    {
+      "depth": 5,
+      "threshold": 0.95,
+      "inner_mean_f1": 0.3366119643323625,
+      "grid": [
+        {
+          "threshold": 0.05,
+          "inner_mean_f1": 0.2403943492953139
+        },
+        {
+          "threshold": 0.1,
+          "inner_mean_f1": 0.3042093052976419
+        },
+        {
+          "threshold": 0.2,
+          "inner_mean_f1": 0.29221855124982166
+        },
+        {
+          "threshold": 0.3,
+          "inner_mean_f1": 0.28659694662202767
+        },
+        {
+          "threshold": 0.4,
+          "inner_mean_f1": 0.27765333261095737
+        },
+        {
+          "threshold": 0.5,
+          "inner_mean_f1": 0.2826466248664847
+        },
+        {
+          "threshold": 0.6,
+          "inner_mean_f1": 0.2886243651468422
+        },
+        {
+          "threshold": 0.7,
+          "inner_mean_f1": 0.29866846489070076
+        },
+        {
+          "threshold": 0.8,
+          "inner_mean_f1": 0.3052087766375518
+        },
+        {
+          "threshold": 0.9,
+          "inner_mean_f1": 0.28539298312316497
+        },
+        {
+          "threshold": 0.95,
+          "inner_mean_f1": 0.3366119643323625
+        }
+      ]
+    }
+  ],
+  "seconds": 4.957127094268799,
+  "metrics": [
+    {
+      "channel": "D-1",
+      "dataset": "SMAP",
+      "fold": 1,
+      "method": "hgb",
+      "threshold": 0.95,
+      "tp": 1403,
+      "fp": 0,
+      "fn": 1856,
+      "tn": 5186,
+      "events": 1,
+      "hits": 1,
+      "delay_sum": 359,
+      "alerts": 139,
+      "hit_alerts": 139,
+      "auroc": 0.9864646976594643,
+      "ap": 0.984269563731133
+    },
+    {
+      "channel": "D-15",
+      "dataset": "MSL",
+      "fold": 1,
+      "method": "hgb",
+      "threshold": 0.95,
+      "tp": 0,
+      "fp": 0,
+      "fn": 641,
+      "tn": 1453,
+      "events": 1,
+      "hits": 0,
+      "delay_sum": 0,
+      "alerts": 0,
+      "hit_alerts": 0,
+      "auroc": 0.4250482889239864,
+      "ap": 0.24818682456913188
+    },
+    {
+      "channel": "D-3",
+      "dataset": "SMAP",
+      "fold": 1,
+      "method": "hgb",
+      "threshold": 0.95,
+      "tp": 3097,
+      "fp": 139,
+      "fn": 179,
+      "tn": 5161,
+      "events": 1,
+      "hits": 1,
+      "delay_sum": 141,
+      "alerts": 17,
+      "hit_alerts": 17,
+      "auroc": 0.9806560865758979,
+      "ap": 0.9615465300337762
+    },
+    {
+      "channel": "D-9",
+      "dataset": "SMAP",
+      "fold": 1,
+      "method": "hgb",
+      "threshold": 0.95,
+      "tp": 7,
+      "fp": 0,
+      "fn": 1149,
+      "tn": 6186,
+      "events": 1,
+      "hits": 1,
+      "delay_sum": 224,
+      "alerts": 1,
+      "hit_alerts": 1,
+      "auroc": 0.9035467128027681,
+      "ap": 0.8374666209201646
+    },
+    {
+      "channel": "E-12",
+      "dataset": "SMAP",
+      "fold": 1,
+      "method": "hgb",
+      "threshold": 0.95,
+      "tp": 0,
+      "fp": 0,
+      "fn": 583,
+      "tn": 7865,
+      "events": 2,
+      "hits": 0,
+      "delay_sum": 0,
+      "alerts": 0,
+      "hit_alerts": 0,
+      "auroc": 0.7891709257528687,
+      "ap": 0.4977859120594706
+    },
+    {
+      "channel": "E-2",
+      "dataset": "SMAP",
+      "fold": 1,
+      "method": "hgb",
+      "threshold": 0.95,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1398,
+      "tn": 7070,
+      "events": 1,
+      "hits": 0,
+      "delay_sum": 0,
+      "alerts": 0,
+      "hit_alerts": 0,
+      "auroc": 0.6980230901692255,
+      "ap": 0.39342557967686914
+    },
+    {
+      "channel": "E-9",
+      "dataset": "SMAP",
+      "fold": 1,
+      "method": "hgb",
+      "threshold": 0.95,
+      "tp": 0,
+      "fp": 56,
+      "fn": 351,
+      "tn": 7831,
+      "events": 1,
+      "hits": 0,
+      "delay_sum": 0,
+      "alerts": 5,
+      "hit_alerts": 0,
+      "auroc": 0.459828770846902,
+      "ap": 0.04211109007382789
+    },
+    {
+      "channel": "F-3",
+      "dataset": "SMAP",
+      "fold": 1,
+      "method": "hgb",
+      "threshold": 0.95,
+      "tp": 0,
+      "fp": 0,
+      "fn": 41,
+      "tn": 8271,
+      "events": 1,
+      "hits": 0,
+      "delay_sum": 0,
+      "alerts": 0,
+      "hit_alerts": 0,
+      "auroc": 0.9607989714282343,
+      "ap": 0.5703033069479234
+    },
+    {
+      "channel": "F-5",
+      "dataset": "MSL",
+      "fold": 1,
+      "method": "hgb",
+      "threshold": 0.95,
+      "tp": 0,
+      "fp": 0,
+      "fn": 151,
+      "tn": 3707,
+      "events": 1,
+      "hits": 0,
+      "delay_sum": 0,
+      "alerts": 0,
+      "hit_alerts": 0,
+      "auroc": 0.8715210350205536,
+      "ap": 0.2346761091201064
+    },
+    {
+      "channel": "G-2",
+      "dataset": "SMAP",
+      "fold": 1,
+      "method": "hgb",
+      "threshold": 0.95,
+      "tp": 2,
+      "fp": 0,
+      "fn": 39,
+      "tn": 7256,
+      "events": 1,
+      "hits": 1,
+      "delay_sum": 12,
+      "alerts": 2,
+      "hit_alerts": 2,
+      "auroc": 0.8651712964207923,
+      "ap": 0.7166923626072257
+    },
+    {
+      "channel": "M-3",
+      "dataset": "MSL",
+      "fold": 1,
+      "method": "hgb",
+      "threshold": 0.95,
+      "tp": 0,
+      "fp": 0,
+      "fn": 251,
+      "tn": 1812,
+      "events": 1,
+      "hits": 0,
+      "delay_sum": 0,
+      "alerts": 0,
+      "hit_alerts": 0,
+      "auroc": 0.8448556766312234,
+      "ap": 0.4247695568418766
+    },
+    {
+      "channel": "P-7",
+      "dataset": "SMAP",
+      "fold": 1,
+      "method": "hgb",
+      "threshold": 0.95,
+      "tp": 14,
+      "fp": 0,
+      "fn": 1637,
+      "tn": 6356,
+      "events": 1,
+      "hits": 1,
+      "delay_sum": 209,
+      "alerts": 7,
+      "hit_alerts": 7,
+      "auroc": 0.7016036965220079,
+      "ap": 0.5437059355807388
+    },
+    {
+      "channel": "S-1",
+      "dataset": "SMAP",
+      "fold": 1,
+      "method": "hgb",
+      "threshold": 0.95,
+      "tp": 51,
+      "fp": 0,
+      "fn": 397,
+      "tn": 6819,
+      "events": 1,
+      "hits": 1,
+      "delay_sum": 64,
+      "alerts": 4,
+      "hit_alerts": 4,
+      "auroc": 0.8635736479479605,
+      "ap": 0.7125731992546493
+    },
+    {
+      "channel": "S-2",
+      "dataset": "MSL",
+      "fold": 1,
+      "method": "hgb",
+      "threshold": 0.95,
+      "tp": 3,
+      "fp": 1,
+      "fn": 8,
+      "tn": 1751,
+      "events": 1,
+      "hits": 1,
+      "delay_sum": 6,
+      "alerts": 2,
+      "hit_alerts": 1,
+      "auroc": 0.7639321295143213,
+      "ap": 0.3251501244591535
+    },
+    {
+      "channel": "T-2",
+      "dataset": "SMAP",
+      "fold": 1,
+      "method": "hgb",
+      "threshold": 0.95,
+      "tp": 56,
+      "fp": 0,
+      "fn": 1729,
+      "tn": 6776,
+      "events": 1,
+      "hits": 1,
+      "delay_sum": 113,
+      "alerts": 19,
+      "hit_alerts": 19,
+      "auroc": 0.9095437348493117,
+      "ap": 0.8556229220561715
+    },
+    {
+      "channel": "T-3",
+      "dataset": "SMAP",
+      "fold": 1,
+      "method": "hgb",
+      "threshold": 0.95,
+      "tp": 2,
+      "fp": 0,
+      "fn": 182,
+      "tn": 8331,
+      "events": 2,
+      "hits": 2,
+      "delay_sum": 111,
+      "alerts": 2,
+      "hit_alerts": 2,
+      "auroc": 0.6262290397833132,
+      "ap": 0.2676745493176127
+    }
+  ]
+}

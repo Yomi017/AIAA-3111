@@ -1,0 +1,13 @@
+{
+  "channel": "P-10",
+  "dataset": "MSL",
+  "split": "confirmation",
+  "calibration_n": 798,
+  "reference_threshold": 1.188024257146405,
+  "selection_threshold": 1.1903630472821851,
+  "envelope_ratio": 1.0019686383688813,
+  "selection_exceedance": 0.008771929824561403,
+  "calibration_exceedance": 0.005012531328320802,
+  "pca_rank": 59,
+  "reference_floor": 0.009318094278597073
+}

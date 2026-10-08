@@ -1,0 +1,58 @@
+[
+  {
+    "name": "telemanom_paper",
+    "url": "https://arxiv.org/abs/1802.04431",
+    "retrieved_utc": "2026-10-06T09:41:20.718453+00:00",
+    "sha256": "3d08c7ac528b8d8dbf6cc179940a8468b2c13c097046bf70ff65307a63a4d9a5",
+    "file": "telemanom_paper.html",
+    "status": "saved"
+  },
+  {
+    "name": "tranad_paper",
+    "url": "https://arxiv.org/abs/2201.07284",
+    "retrieved_utc": "2026-10-06T09:41:21.669509+00:00",
+    "sha256": "288a2485a5601c478d89c1958f2939a73cbb0190cd22b80a804cdbcac85e9f17",
+    "file": "tranad_paper.html",
+    "status": "saved"
+  },
+  {
+    "name": "usad_official",
+    "url": "https://raw.githubusercontent.com/manigalati/usad/master/usad.py",
+    "retrieved_utc": "2026-10-06T09:41:22.572312+00:00",
+    "sha256": "eea96f59ff0e3d4b2b7de31b8b7d4dbe4c02b104e76fdc04fb2cf5575ca1a444",
+    "file": "usad_official.py",
+    "status": "saved"
+  },
+  {
+    "name": "telemanom_channel",
+    "url": "https://raw.githubusercontent.com/khundman/telemanom/master/telemanom/channel.py",
+    "retrieved_utc": "2026-10-06T09:41:23.964475+00:00",
+    "sha256": "f43d34ac332117c569e68bdb36f349529362f4f75696bf790656217815d73050",
+    "file": "telemanom_channel.py",
+    "status": "saved"
+  },
+  {
+    "name": "tsbad_lof",
+    "url": "https://raw.githubusercontent.com/TheDatumOrg/TSB-AD/main/TSB_AD/models/LOF.py",
+    "retrieved_utc": "2026-10-06T09:41:24.889564+00:00",
+    "sha256": "282f3bcd627028f1334182887556f1e57207f334f7b7e557be491a4352199ecd",
+    "file": "tsbad_lof.py",
+    "status": "saved"
+  },
+  {
+    "name": "tsbad_m2n2",
+    "url": "https://raw.githubusercontent.com/TheDatumOrg/TSB-AD/main/TSB_AD/models/M2N2.py",
+    "retrieved_utc": "2026-10-06T09:41:26.179502+00:00",
+    "sha256": "6e0e1af8c3c543884288caa4ec27e925787e772a0fff0c8f42a58d4e36bb34ae",
+    "file": "tsbad_m2n2.py",
+    "status": "saved"
+  },
+  {
+    "name": "tranad_pot",
+    "url": "https://raw.githubusercontent.com/imperial-qore/TranAD/main/src/pot.py",
+    "retrieved_utc": "2026-10-06T09:41:27.078366+00:00",
+    "sha256": "83fd5dbd6e5c9f50840dc3ef891552c5bcf3691f403e294819260850c92bed46",
+    "file": "tranad_pot.py",
+    "status": "saved"
+  }
+]

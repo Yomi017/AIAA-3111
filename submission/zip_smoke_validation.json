@@ -1,0 +1,36 @@
+{
+  "archive_sha256": "e85fdef9080ed3ebbce89312cde5112a77327d17e4638182d65de5f0c2ec753f",
+  "extracted_manifest": true,
+  "commands": [
+    {
+      "command": [
+        "prepare_data_v4.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "experiment_v4.py",
+        "predict",
+        "--model",
+        "results_v4/mechanism/confirmation/P-1/model.joblib",
+        "--input",
+        "data/telemanom/data/test/P-1.parquet",
+        "--method",
+        "level_conditional",
+        "--output",
+        "P-1_smoke.csv"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "validate_submission_v4.py",
+        "--skip-render"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "single_channel_parity": "CSV exactly identical",
+  "layout": "Report.pdf at ZIP root validated; Poster intentionally separate"
+}

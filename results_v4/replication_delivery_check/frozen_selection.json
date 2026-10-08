@@ -1,0 +1,40 @@
+{
+  "frozen_utc": "2026-10-06T09:58:10.624570+00:00",
+  "selected": "level_conditional",
+  "development_mean_f1": {
+    "level_conditional": 0.27686215315499635,
+    "robust_trajectory": 0.27385745010678364,
+    "subspace_reference": 0.2453422579060857,
+    "normal_envelope": 0.23345015463468705
+  },
+  "config": {
+    "window": 64,
+    "fit_stride": 2,
+    "pca_variance": 0.95,
+    "whitening_floor": 1e-06,
+    "neighbors": 50,
+    "quantile": 0.995,
+    "smoothing": 1,
+    "normal_split": "60/20/20; last two >=96",
+    "support": "t=64..n-1",
+    "point_adjustment": false,
+    "level_bins": "normal fit quartiles; duplicate boundaries removed",
+    "conditional_min_calibration": 30,
+    "robust_features": [
+      "median",
+      "IQR",
+      "last",
+      "last-minus-first",
+      "median_abs_difference",
+      "q90_abs_difference",
+      "OLS_slope",
+      "mean_second_half-minus-first_half"
+    ],
+    "feature_scale": "fit median and IQR/1.349 floor 0.1",
+    "selection": "equal dataset weighted development micro F1; ties retain reference",
+    "confirmation_policy": "all four frozen mechanism arms once; no reselection",
+    "history": "all official channels previously exposed, including subspace grid confirmation scores"
+  },
+  "development_csv_sha256": "c846ac8c38fc18cb5ec1221fd53e7cd199833edf12cec46625736402fa0af89d",
+  "code_sha256": "6f5144b80e2243887a3ae6c559378b127361cb0122ffc3096dcb576f8773e1de"
+}

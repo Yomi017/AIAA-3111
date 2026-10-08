@@ -1,0 +1,18 @@
+{
+  "seed": 7,
+  "L": 64,
+  "epochs": 20,
+  "train_fractions": [
+    0.6,
+    0.2,
+    0.2
+  ],
+  "quantile": 0.995,
+  "warmup": 64,
+  "score_smoothing": 16,
+  "point_adjustment": false,
+  "excluded": [
+    "P-2"
+  ],
+  "reason": "P-2 duplicate conflicting labels; no entity concatenation; inputs are target plus command indicators"
+}

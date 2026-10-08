@@ -1,0 +1,59 @@
+{
+  "metrics": [
+    {
+      "dataset": "SMAP",
+      "channel": "P-7",
+      "split": "confirmation",
+      "method": "dae",
+      "threshold": 0.3639312154054639,
+      "tp": 1220,
+      "fp": 256,
+      "fn": 431,
+      "tn": 6100,
+      "events": 1,
+      "hits": 1,
+      "delay_sum": 89,
+      "alerts": 42,
+      "hit_alerts": 21,
+      "auroc": 0.9101371329769817,
+      "ap": 0.8308233958400026
+    },
+    {
+      "dataset": "SMAP",
+      "channel": "P-7",
+      "split": "confirmation",
+      "method": "usad",
+      "threshold": 1.5265205550193786,
+      "tp": 758,
+      "fp": 406,
+      "fn": 893,
+      "tn": 5950,
+      "events": 1,
+      "hits": 1,
+      "delay_sum": 122,
+      "alerts": 82,
+      "hit_alerts": 51,
+      "auroc": 0.8559913152164011,
+      "ap": 0.6834627543417447
+    },
+    {
+      "dataset": "SMAP",
+      "channel": "P-7",
+      "split": "confirmation",
+      "method": "trajectory_gaussian",
+      "threshold": 349.8986367797851,
+      "tp": 917,
+      "fp": 12,
+      "fn": 734,
+      "tn": 6344,
+      "events": 1,
+      "hits": 1,
+      "delay_sum": 92,
+      "alerts": 93,
+      "hit_alerts": 81,
+      "auroc": 0.9569060877725764,
+      "ap": 0.9148080051508645
+    }
+  ],
+  "seconds": 2.4993736743927
+}

@@ -1,0 +1,48 @@
+[
+  {
+    "dataset": "SMAP",
+    "method": "pca",
+    "channels": 55,
+    "pointwise": {
+      "precision": 0.1816492386209192,
+      "recall": 0.11480812720228599,
+      "f1": 0.14069347770043825,
+      "fpr": 0.07623930210443627,
+      "tp": 6549,
+      "fp": 29504,
+      "fn": 50494,
+      "tn": 357488,
+      "macro_roc_auc": 0.6285904508104393,
+      "macro_pr_auc": 0.24981254881114934
+    },
+    "event_level": {
+      "detected": 44,
+      "total": 69,
+      "recall": 0.6376811594202898,
+      "mean_delay_points": 155.52272727272728
+    }
+  },
+  {
+    "dataset": "SMAP",
+    "method": "iforest",
+    "channels": 55,
+    "pointwise": {
+      "precision": 0.38723219455703534,
+      "recall": 0.04689444804796382,
+      "f1": 0.0836578005035105,
+      "fpr": 0.010938210609004838,
+      "tp": 2675,
+      "fp": 4233,
+      "fn": 54368,
+      "tn": 382759,
+      "macro_roc_auc": 0.5655540107949161,
+      "macro_pr_auc": 0.17565933215289983
+    },
+    "event_level": {
+      "detected": 35,
+      "total": 69,
+      "recall": 0.5072463768115942,
+      "mean_delay_points": 165.62857142857143
+    }
+  }
+]

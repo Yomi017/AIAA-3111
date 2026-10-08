@@ -1,0 +1,17 @@
+dataset,split,method,span,f1
+MSL,confirmation,subspace_lof50,1,0.26585042167901024
+MSL,confirmation,subspace_lof50,64,0.23659820567954326
+MSL,confirmation,trajectory_lof50,1,0.21702409904930356
+MSL,confirmation,trajectory_lof50,64,0.23832380952380952
+MSL,development,subspace_lof50,1,0.10285543429511138
+MSL,development,subspace_lof50,64,0.08928788062598568
+MSL,development,trajectory_lof50,1,0.12207591014717273
+MSL,development,trajectory_lof50,64,0.3755741127348643
+SMAP,confirmation,subspace_lof50,1,0.4870745542949757
+SMAP,confirmation,subspace_lof50,64,0.4057711970310902
+SMAP,confirmation,trajectory_lof50,1,0.44500569591748423
+SMAP,confirmation,trajectory_lof50,64,0.362949719772604
+SMAP,development,subspace_lof50,1,0.38782908151706014
+SMAP,development,subspace_lof50,64,0.35957606338784526
+SMAP,development,trajectory_lof50,1,0.3236411020104244
+SMAP,development,trajectory_lof50,64,0.2871689430655505
