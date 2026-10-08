@@ -2,6 +2,8 @@
 
 ## 给同学的完整下载入口
 
+当前做到哪一步、已完成的文件及组员待办，见[项目进度与交付清单](PROJECT_STATUS.md)（2026年10月8日更新）。
+
 GitHub仓库：https://github.com/Yomi017/AIAA-3111 。训练/测试数据、拟合模型、全部历史与本轮实验、复现实验、研究来源、报告和独立海报均已随仓库提供，数据和模型是真实文件，无需另拉Git LFS。
 
 - 完整源码与数据：下载仓库的 **Code → Download ZIP**，或 `git clone https://github.com/Yomi017/AIAA-3111.git`。
